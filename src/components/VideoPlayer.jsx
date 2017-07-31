@@ -6,7 +6,7 @@ const VideoPlayer = (props) => {
 
   const video = props.video;
   const videoId = video.id.videoId;
-  const videoUrl = 'https://www.youtube.com/embed/' + videoId;
+  const videoUrl = 'https://www.youtube.com/embed/' + videoId + '?modestbranding=1';
   return (
     <div className="video-detail col-md-8">
       <div className="embed-responsive embed-responsive-16by9">
